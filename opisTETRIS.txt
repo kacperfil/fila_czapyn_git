@@ -1,0 +1,12 @@
+Ten kod implementuje prostą wersję gry Tetris przy użyciu biblioteki Qt. Oto jego funkcjonalności w skrócie:
+
+- Plansza Tetris składa się z 20 wierszy i 10 kolumn, na której wyświetlane są bloki w kształcie prostokątnych pól o różnych kolorach.
+- Kształty są generowane losowo i reprezentowane jako wektory bloków.
+- Gracz może poruszać kształtami w lewo, prawo, w dół i obracać.
+- Plansza jest odświeżana przy każdej zmianie stanu, a bloki są rysowane za pomocą QPaintera.
+- Ukończone linie bloków są usuwane, a gracz otrzymuje punkty.
+- Gra kończy się, gdy gracz nie może umieścić nowego kształtu na planszy.
+- Wynik jest wyświetlany i aktualizowany po każdej zmianie.
+- Gracz steruje kształtami przy użyciu klawiatury.
+- Automatyczne poruszanie kształtów w dół jest sterowane przez QTimer.
+- Gra jest uruchamiana w aplikacji Qt i obsługiwana w pętli zdarzeń QApplication::exec().

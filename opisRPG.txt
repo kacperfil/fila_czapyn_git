@@ -1,0 +1,28 @@
+
+1. Struktura 'postac':
+
+Zdefiniowana struktura 'postac' przechowuje informacje o postaci, takie jak nazwa, siła, magia, inteligencja, obrona i życie.
+
+2. Funkcje:
+
+tnull(): Inicjalizuje generator liczb losowych.
+delaj(int czas): Opóźnia działanie programu na podaną liczbę sekund.
+cs(): Czyści ekran konsoli.
+delajcs(int czas): Opóźnia działanie programu na podaną liczbę sekund i czyści ekran konsoli.
+wstep(): Inicjalizuje wartości początkowe dla postaci gracza.
+imie(): Pobiera imię gracza i przypisuje je do postaci gracza.
+statyprzeciwnika(): Generuje losowe statystyki dla przeciwnika na podstawie aktualnego poziomu.
+mojestaty(int level): Pozwala na rozdzielenie punktów doświadczenia gracza na różne statystyki postaci.
+wybor(): Pozwala graczowi wybrać ruch w trakcie walki.
+ruchpr(): Generuje losowy ruch przeciwnika.
+schematwalki(float ruch): Oblicza efekty wybranego ruchu i aktualizuje statystyki postaci gracza i przeciwnika.
+walka(): Symuluje pojedynczą rundę walki między postacią gracza a przeciwnikiem.
+levl(): Zwiększa poziom gracza i zwiększa jego statystyki.
+
+3. Główna funkcja main():
+
+Pobiera imię gracza i wyświetla wstępne powitanie.
+W pętli while odbywa się walka między graczem a przeciwnikiem.
+Sprawdza, czy walka została wygrana, po czym pyta gracza, czy chce kontynuować na wyższym poziomie trudności.
+
+Ogólnie rzecz biorąc, kod implementuje prostą grę RPG, w której gracz walczy z przeciwnikami na kolejnych poziomach trudności. Gracz ma możliwość rozwijania statystyk swojej postaci i podejmowania różnych rodzajów ruchów w trakcie walki.
